@@ -1,0 +1,36 @@
+header,
+footer {
+    background-color: #2B2B2B;
+    color: white;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+.cta-button1 {
+    background-color: #2B2B2B;
+    color: white;
+    text-decoration: none;
+}
+
+.our-products {
+    background-color: #E5E5E5;
+}
+
+footer {
+    text-align: center;
+}
+
+/* Home Page*/
+
+.welcome {
+    background-image: url("/images/homepage1.jpeg");
+    min-height: 75vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-position: left;
+}
