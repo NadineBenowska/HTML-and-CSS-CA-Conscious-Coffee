@@ -1,26 +1,61 @@
+header {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    margin-left: 40%;
+}
+
+nav ul {
+    padding: 0px;
+}
+
+nav li {
+
+    display: inline-block;
+}
+
+main {
+    background-color: #DC9D88;
+}
+
 header,
 footer {
     background-color: #2B2B2B;
     color: white;
 }
 
+/* Links */
+
+a {
+    text-decoration: none;
+}
+
 header a {
     color: white;
     text-decoration: none;
+    padding: 20px;
+    font-size: 22px;
+
+}
+
+.logo {
+    font-size: 40px;
 }
 
 .cta-button1 {
     background-color: #2B2B2B;
     color: white;
     text-decoration: none;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    padding: 5px 50px;
+    border-radius: 50px;
 }
 
-.our-products {
-    background-color: #E5E5E5;
-}
-
-footer {
-    text-align: center;
+.active {
+    text-decoration: underline;
 }
 
 /* Home Page*/
@@ -31,6 +66,184 @@ footer {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    color: white;
+    color: black;
     background-position: left;
+    position: relative;
 }
+
+.content {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    font-size: 25px;
+
+}
+
+.our-products h2 {
+    font-size: 60px;
+    margin: 40px;
+    padding: 0;
+    text-align: center;
+}
+
+.our-products h3 {
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+}
+
+.grid {
+    padding: 50px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    align-items: center;
+
+}
+
+.grid article {
+    background: #5f5c5c;
+    border: none;
+    box-shadow: 2px 2px 6px 0px black;
+    border-radius: 5px;
+    text-align: center;
+    width: 400px;
+    transition: transfrom .3s;
+    margin-left: 25px;
+    margin-right: 50px;
+}
+
+.grid article img {
+    padding: 30px;
+    width: 50%;
+    height: 30vh;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+
+}
+
+.text {
+    padding: 0 20px 20px;
+}
+
+.text h4 {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.cta-button {
+    background-color: #5f5c5c;
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: none;
+    padding: 5px 20px;
+    border-radius: 50px;
+    margin-left: 46%;
+}
+
+/* Contact page */
+
+input,
+textarea {
+
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+    margin: 10px 10px 10px;
+    padding: 10px;
+}
+
+textarea {
+    height: 50%;
+    min-height: 100px;
+}
+
+.cta-button2 {
+    background-color: #CFDFDE;
+    color: black;
+    text-decoration: none;
+    font-size: 1.7em;
+    text-transform: none;
+    padding: 5px 50px;
+    border-radius: 50px;
+    border-color: #707070;
+}
+
+/* Products page */
+
+.cta-button3 {
+    background-color: #CFDFDE;
+    color: black;
+    text-decoration: none;
+    font-size: 1em;
+    text-transform: none;
+    padding: 5px 40px;
+    border-radius: 50px;
+    border-color: black;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+}
+
+.footer {
+    padding: 40px 0;
+    margin-top: 50px;
+}
+
+.footer .social-media {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.footer .social-media a {
+    font-size: 30px;
+    color: white;
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    border-radius: 20%;
+    margin: 0 10px;
+    opacity: 0.8;
+}
+
+.footer .social-media a:hover {
+    opacity: 10;
+}
+
+.footer ul {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer ul a {
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding: 0 30px;
+}
+
+.footer ul li a

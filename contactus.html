@@ -19,7 +19,7 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="aboutus.html">About Us</a></li>
-                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="contactus.html" class="active">Contact Us</a></li>
                 <li><a href="products.html">Products</a></li>
                 <li><a href="locations.html">Locations</a></li>
             </ul>
@@ -29,12 +29,14 @@
         <h1>Contact</h1>
         <form>
             <label for="name">Name</label>
-            <input type="text" id="name">
+            <input type="text" id="name" name="Name">
             <label for="email">Email</label>
-            <input type="text" id="email">
+            <input type="text" id="email" name="email">
             <label for="topic">Topic</label>
-            <input type="text" id="topic">
-
+            <input type="text" id="topic" name="topic">
+            <label for="message">Message</label>
+            <textarea id="message" name="message"></textarea>
+            <input type="submit" value="Send" class="cta-button2" />
         </form>
     </main>
     <footer>
