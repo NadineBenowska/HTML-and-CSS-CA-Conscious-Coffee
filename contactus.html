@@ -14,7 +14,7 @@
 
 <body>
     <header>
-        <a href="index.html">Conscious Coffee</a>
+        <a href="index.html" class="logo">Conscious Coffee</a>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -25,17 +25,23 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="contact">
         <h1>Contact</h1>
         <form>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="Name">
-            <label for="email">Email</label>
-            <input type="text" id="email" name="email">
-            <label for="topic">Topic</label>
-            <input type="text" id="topic" name="topic">
-            <label for="message">Message</label>
-            <textarea id="message" name="message"></textarea>
+            <div class="form-wrapper">
+                <section>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="Name">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email">
+                    <label for="topic">Topic</label>
+                    <input type="text" id="topic" name="topic">
+                </section>
+                <section>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message"></textarea>
+                </section>
+            </div>
             <input type="submit" value="Send" class="cta-button2" />
         </form>
     </main>
