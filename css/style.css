@@ -94,6 +94,7 @@ header a {
 
 .our-products h2 {
     font-family: 'Lobster', cursive;
+    font-weight: lighter;
     font-size: 60px;
     text-decoration: underline;
     margin-top: 20px;
@@ -407,3 +408,5 @@ footer {
     font-size: 15px;
     color: white;
 }
+
+@media (min-width: 600px) {}
