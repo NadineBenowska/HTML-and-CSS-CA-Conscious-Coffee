@@ -8,22 +8,19 @@ A screenshot of the explore page over at The Conscious Coffee website, a cross-c
 
 This is the GitHub repository for the Conscious Coffee e-commerce website, a cross-course project. The project initially involved designing a prototype for a coffee company called Conscious Coffee. Over time, the prototype evolved into a live site built with HTML and CSS.
 
-The primary objective of this cross-course project is to create an e-commerce website for Conscious Coffee that offers a seamless user experience (UX/UI) and is easy to navigate. 
+The primary objective of this cross-course project is to create an e-commerce website for Conscious Coffee that offers a seamless user experience and is easy to navigate. 
 
-## Key Features
-
-- The project started with creating a prototype and style tile. These elements served as the foundation for the visual design and layout of the website, ensuring a cohesive and appealing aesthetic.
-
-- The live site is built using HTML and CSS, incorporating the design elements from the prototype. The frontend development focuses on creating a responsive and visually engaging website that aligns with the brand identity of Rainydays.
+The target audience for this site was people aged 18 to 25 who are interested in computer games, and would either like to purchase games or would like to sell games they have finished playing.
 
 ## Built With
 
 
 The Conscious Coffee website is built with the following technologies:
 
-- Prototype and Style Tile: Adobe XD was used to create the prototype and style tile, ensuring a visually consistent and appealing design.
-
-- Frontend: The live site is developed using HTML and CSS. These foundational languages are used to structure the website and define its visual elements.
+- HTML
+- CSS
+- JavaScript
+- Wordpress CMS
 
 ## Installing
 
