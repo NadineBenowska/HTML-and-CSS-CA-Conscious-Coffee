@@ -1,6 +1,6 @@
 # Conscious Coffee
 
-![Coffee](https://github.com/NadineBenowska/HTML-and-CSS-CA-Conscious-Coffee/assets/94540179/b5467ec6-36b1-4b74-b841-cea6b0495b0f)
+![Coffee](https://github.com/NadineBenowska/HTML-and-CSS-CA-Conscious-Coffee/assets/94540179/c9f43ed0-681f-48a7-a045-46de3900a4f7
 
 A screenshot of the explore page over at The Conscious Coffee website, a cross-course project. 
 
